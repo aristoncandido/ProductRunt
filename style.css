@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+/*Classes Auxiliares*/
+
+.center {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+.clear {
+  clear: both;
+}
+
+.w50 {
+  float: left;
+  width: 50%;
+}
+
+.texto{
+  text-align: center;
+  padding-top: 8%;
+  max-width: 256px;
+
+
+}
+
+
+
+
+/*--------------*/
+
+section.topo {
+  background-image: linear-gradient(114deg, #250e8a, #00f9f7);
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.logo {
+  float: left;
+}
+
+.menu-desktop {
+  float: right;
+  padding-bottom: 2%;
+}
+
+.menu-desktop li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.menu-desktop a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.menu-desktop a:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.time-descricao {
+  padding: 2%;
+  color: white;
+}
+.time-descricao h2 {
+  font-size: 45px;
+}
+.time-descricao p {
+  font-size: 15px;
+  margin-top: 10px;
+  max-width: 240px;
+}
+
+.time-descricao a {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 4px 8px;
+  text-decoration: none;
+  color: #1b49a5;
+  font-weight: bold;
+  background: #ffca00;
+  border-radius: 5px;
+  box-shadow: 0 20px 30px 0 rgba(37, 15, 138, 0.2);
+}
+
+.time-descricao img {
+  width: 100%;
+}
+
+.bttn-down{
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 55px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.179);
+
+}
+
+.bttn-down img{
+  margin-top: 25%;
+
+
+
+
+}
+
+.clientes-slider{
+  
+    overflow: hidden;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+}
+
+
+.clientes-slider div img{
+  
+ 
+ 
+  padding-bottom: 124px;
+  padding-top: 55px;
+  margin-left: 50px;
+  padding-right: 15px;
+}
+
+
+.servicos{
+  display: flex;
+  justify-content: space-between;
+  padding-top:8%;
+
+}
+
+.center h1{
+  text-align: center;
+  font-size: 23pt;
+}
+
+
+.card img{
+
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+
+
+}
+
+.card h3{
+  margin-bottom: 8%
+}
+.card p{
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .w50 {
+    width: 100%;
+  }
+  #img_home{
+    margin-left: 10%;
+  }
+  .servicos{
+    flex-direction: column;
+    align-items: center;  
+    align-content: space-around;
+
+  
+  }
+  .servicos .card{
+    margin-top: 5%;
+  }
+
+}
